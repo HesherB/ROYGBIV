@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".HighScores" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey"
+        android:clickable="false"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/hs_1stName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Red Surefoot"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/hs_1stScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_1stName"
+            android:layout_weight=".14"
+            android:clickable="false"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="10"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey" >
+
+        <TextView
+            android:id="@+id/hs_2ndName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/hs_1stName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Oliver Fellfast"
+            android:textColor="@color/White"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/hs_2ndScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_2ndName"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="20"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/hs_3rdName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/hs_2ndName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Yakiri Wanderlust"
+            android:textColor="@color/White"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/hs_3rdScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_3rdName"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="30"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/hs_4thName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/hs_3rdName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Grubtooth the Lazy"
+            android:textColor="@color/White"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/hs_4thScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_4thName"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="40"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/hs_5thName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/hs_4thName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Belladonna Tingeweed"
+            android:textColor="@color/White"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/hs_5thScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_5thName"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="50"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/hs_6thName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/hs_5thName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Ignatio the Denizen"
+            android:textColor="@color/White"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/hs_6thScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_6thName"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="60"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        android:background="@color/Dark_Grey"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/hs_7thName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/hs_6thName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="2dp"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Viktor Cavesniffer"
+            android:textColor="@color/White"
+            android:textSize="22sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/hs_7thScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/hs_7thName"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:text="70"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

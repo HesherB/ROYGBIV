@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity" 
+    >
+
+    <RelativeLayout
+        android:id="@+id/GameArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/ROYGBIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            tools:context=".Roygbiv" >
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Red"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Red"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Orange"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Orange"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Yellow"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Yellow"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/Button04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Green"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Green"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/Button05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Blue"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Blue"
+                android:textColor="@color/White"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/Button06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Indigo"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Indigo"
+                android:textColor="@color/White"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/Button07"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".14"
+                android:background="@color/Violet"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="none"
+                android:onClick="roygbivClick"
+                android:text="@string/Violet"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Solution"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/Black"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <View
+                android:id="@+id/ViewRed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Red" />
+
+            <View
+                android:id="@+id/ViewOrange"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Orange" />
+
+            <View
+                android:id="@+id/ViewYellow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Yellow" />
+
+            <View
+                android:id="@+id/ViewGreen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Green" />
+
+            <View
+                android:id="@+id/ViewBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Blue" />
+
+            <View
+                android:id="@+id/ViewIndigo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Indigo" />
+
+            <View
+                android:id="@+id/ViewViolet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Violet" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LastMove"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/Black"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <View
+                android:id="@+id/LastRed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Red" />
+
+            <View
+                android:id="@+id/LastOrange"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Orange" />
+
+            <View
+                android:id="@+id/LastYellow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Yellow" />
+
+            <View
+                android:id="@+id/LastGreen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Green" />
+
+            <View
+                android:id="@+id/LastBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Blue" />
+
+            <View
+                android:id="@+id/LastIndigo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Indigo" />
+
+            <View
+                android:id="@+id/LastViolet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".14"
+                android:background="@color/Violet" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/BottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/Black" >
+
+        <Button
+            android:id="@+id/ShowLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="toggleLast"
+            android:text="@string/Show"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/ShowSolve"
+            style="android:buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="toggleSolve"
+            android:text="@string/Show"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/ShowMenu"
+            style="android:buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ShowLast"
+            android:onClick="onClickMenuButton"
+            android:text="@string/Menu"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/moveCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-8dp"
+            android:layout_toLeftOf="@+id/ShowSolve"
+            android:text="789"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColorLink="@color/White"
+            android:textSize="45sp" />
+
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>
+
+

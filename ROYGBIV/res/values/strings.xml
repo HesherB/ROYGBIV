@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ROYGBIV</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <color name="Red">#f00</color>
+    <color name="Orange">#ffa500</color>
+    <color name="Yellow">#ffff00</color>
+    <color name="Green">#0f0</color>
+    <color name="Blue">#00f</color>
+    <color name="Indigo">#4b0082</color>
+    <color name="Violet">#ee82ee</color>
+    <color name="Black">#000</color>
+    <color name="White">#fff</color>
+
+    <string name="Red">Red</string>
+    <string name="Orange">Orange</string>
+    <string name="Yellow">Yellow</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="Indigo">Indigo</string>
+    <string name="Violet">Violet</string>
+    <string name="Black">Black</string>
+    <string name="White">White</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Last_L_arrow">&lt;= Last</string>
+    <string name="Last_R_arrow">Last =></string>
+    <string name="Menu">Menu</string>
+    <string name="Solve_L_arrow">&lt;= Solve</string>
+    <string name="Solve_R_arrow">Solve =></string>
+    <string name="Show">Show</string>
+    <string name="Hide">Hide</string>
+    <string name="Scramble">Scramble</string>
+    <string name="NewGame">New Game</string>
+
+    <color name="Grey">#888</color>
+    <color name="Dark_Grey">#111</color>
+
+    <string name="title_activity_high_scores">HighScores</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>
